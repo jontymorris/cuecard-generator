@@ -1,0 +1,17 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#cuecardApp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+}
+
+.cuecard {
+    border: 1px solid #c8c8c8;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
